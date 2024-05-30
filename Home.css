@@ -1,0 +1,232 @@
+body {
+    font-family: 'Patrick Hand SC', Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background: #333;
+    color: #fff;
+    padding: 10px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+header .logo {
+    font-size: 24px;
+    font-weight: bold;
+    margin-left: 20px;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+#hero {
+    background: url('hero-image.jpg') no-repeat center center/cover;
+    color: #fff;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+#hero .hero-text {
+    max-width: 600px;
+}
+
+#hero h1 {
+    font-size: 48px;
+    margin: 0 0 10px;
+}
+
+#hero p {
+    font-size: 18px;
+    margin: 0 0 20px;
+}
+
+.btn {
+    background: #00b4d8;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-size: 18px;
+    border-radius: 5px;
+}
+
+section {
+    padding: 40px 20px;
+    text-align: center;
+}
+
+section h2 {
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+section p {
+    font-size: 18px;
+    margin: 0 0 20px;
+}
+
+.images img {
+    width: 30%;
+    margin: 10px;
+}
+
+.service-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.service {
+    flex: 1 1 30%;
+    margin: 10px;
+    text-align: center;
+}
+
+.service img {
+    width: 100%;
+    height: auto;
+}
+
+.testimonial {
+    margin: 20px 0;
+    font-style: italic;
+}
+
+.tariffe {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.tariffa {
+    flex: 1 1 30%;
+    margin: 10px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+form input, form select, form button {
+    margin: 10px 0;
+    padding: 10px;
+    font-size: 16px;
+    width: 80%;
+    max-width: 600px;
+}
+
+footer {
+    background: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+footer .contatti, footer .social-media, footer .link-utili {
+    margin: 10px 0;
+}
+
+footer a {
+    color: #00b4d8;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+/* Hero Text Color */
+.hero-text {
+    color: black;
+}
+
+.hero-text h1,
+.hero-text p {
+    color: black;
+}
+
+#Scheda {
+    height: 200px;
+    width: 100%;
+    position: relative;
+}
+
+.centered-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 50px;
+    color: black;
+    text-align: center;
+}
+
+@media (max-width: 768px) {
+    header {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    nav ul {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    nav ul li {
+        margin: 5px 0;
+    }
+
+    #hero h1 {
+        font-size: 36px;
+    }
+
+    .service-list {
+        flex-direction: column;
+    }
+
+    .images img {
+        width: 80%;
+    }
+
+    .tariffe {
+        flex-direction: column;
+    }
+
+    .tariffa {
+        width: 80%;
+        margin: 10px auto;
+    }
+}
+body {
+    overflow-x: hidden; 
+}
+#mappa-2 {
+    color: rgb(91, 100, 102);
+}
+#info {
+    color: rgb(0, 0, 0);
+}
